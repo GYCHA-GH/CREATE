@@ -1,5 +1,6 @@
 import './App.scss'
-import Best from './components/best/best'
+import Best from './homepage/best/best'
+import Footer from './components/header/footer/footer'
 function App() {
 {
 }
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Best/>
+      <Footer/>
     </>
   )
 }

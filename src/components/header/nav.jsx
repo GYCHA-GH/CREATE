@@ -58,7 +58,7 @@ export default function Nav() {
         <a href="">Blog</a>
         <a href="">Contacts</a>
       </nav>
-      <button>Talk to a human</button>
+      <button className='naw-button'>Talk to a human</button>
     </header>
   )
 }

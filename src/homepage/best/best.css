@@ -2,4 +2,95 @@
     width: 1920px;height: 1080px;
     margin: 0 auto;
     background-image: url(./img/bacc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.article-Best-SEO{
+    width: 1231px;
+    height: 728px;
+    margin: 0 auto;
+    padding-top: 190px;
+}
+.section-best{
+    width: 810px;
+    height: 300px;
+}
+.section-best h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+    line-height: 130%;
+    letter-spacing: 4px;
+}
+.section-best b{
+    color: #7772F1;
+}
+.play-buttin{
+    width: 402px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-buttin1{
+    width: 219px;
+    height: 52px;
+    border: solid #ffffff63 1px;
+    justify-content: center;
+}
+.play-buttin2{
+    width: 52px;
+    height: 52px;
+    background-color: #7772F1;
+    justify-content: center;
+    border-radius: 100%;
+    transition: 0.3s;
+    box-shadow: 1px -1px 0px 0px rgba(119, 114, 241, 0.2);
+}
+.pizdec{
+    width: 158px;
+    height: 84px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.pizdec p{
+    font-size: 16px;
+    color: white;
+}
+.play-buttin2 :hover{
+    box-shadow: 1px -1px 0px 25px rgba(119, 114, 241, 0.2);
+    transition: 0.3s;
+    border-radius: 100%;
+}
+.secton-best-SEO-bar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+}
+.secton-best-SEO-bar p{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.SEO-Content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.marketing{
+    width: 419px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left:  solid 1px #ffff;
+    border-right:  solid 1px #ffff;
+}
+.website{
+    display: flex;
+    align-items: center;
 }

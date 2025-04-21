@@ -7,6 +7,9 @@
 .get-SEO-img{
     width: 621px;
     height: 556px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .inputwrapper {
     margin-top: 15px;
@@ -39,7 +42,6 @@
     width: 621px;
     display: flex;
     align-items: center;
-    background-color: #2424c4;
     
     
   }
@@ -52,15 +54,12 @@
   }
   .flex2{
     margin-top: 30px;
-    
     height: 86px;
     display: flex;
     justify-content: space-between;
   }
   .seo-form {
-    background-color: #940000;
     border-radius: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 621px;
     height: 396px;
     color: #fff;

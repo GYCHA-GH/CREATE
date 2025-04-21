@@ -48,7 +48,7 @@ export default function SeoAnalysisForm() {
     <section>
       <div className="container">
         <div className="get-SEO-img">
-          <img src="" alt="" />
+          <img src={Illustration} alt="" />
         </div>
         <div className="seo-form-container">
       <form className="seo-form" onSubmit={handleSubmit}>

@@ -5,6 +5,15 @@ import D from './img/D.svg'
 import Fordes from './img/Fordes.svg'
 import UpCity from './img/UpCity.svg'
 
+import C_logo1 from './img/client-logo1.svg'
+import C_logo2 from './img/client-logo2.svg'
+import C_logo3 from './img/client-logo3.svg'
+import C_logo4 from './img/client-logo4.svg'
+import C_logo5 from './img/client-logo5.svg'
+import C_logo6 from './img/client-logo6.svg'
+
+import Team_img from './img/team.png'
+
 export default function Homepage(){
     return(
         <main className={classes.main}>
@@ -18,7 +27,20 @@ export default function Homepage(){
                 </div>
             </section>
             <section className={classes.sec2}>
-
+                <img src={C_logo1} alt="" />
+                <img src={C_logo2} alt="" />
+                <img src={C_logo3} alt="" />
+                <img src={C_logo4} alt="" />
+                <img src={C_logo5} alt="" />
+                <img src={C_logo6} alt="" />
+            </section>
+            <section className={classes.sec3}>
+                <div>
+                    <h1>Createx Agency</h1>
+                    <p>Lacus ac mollis vitae viverra. Tincidunt est, feugiat montes, viverra ullamcorper mi dui, nulla pharetra. Sapien urna nullam elit diam mauris orci. Volutpat quam tempus justo, aliquam. Tortor ultrices mattis eget orci eu nisi sed augue odio. Et senectus risus, pharetra, tristique libero. Dolor risus ac quam dictum mattis ultrices laoreet sapien. Feugiat lacus, suscipit eu sociis et quis hendrerit. Cras at ac magna ultricies orci.</p>
+                    <button>More about us</button>
+                </div>
+                <img src={Team_img} alt="" />
             </section>
         </main>
     )

@@ -34,8 +34,6 @@ export default function Best(){
                     </div>
                 </section>
             </article>
-
-
         </div>
         </>
     )

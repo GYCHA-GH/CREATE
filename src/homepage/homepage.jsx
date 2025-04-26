@@ -14,6 +14,12 @@ import C_logo6 from './img/client-logo6.svg'
 
 import Team_img from './img/team.png'
 
+import Grafik1 from './img/grafik1.svg'
+import Grafik2 from './img/grafik2.svg'
+import Grafik3 from './img/grafik3.svg'
+import Grafik4 from './img/grafik4.svg'
+
+
 export default function Homepage(){
     return(
         <main className={classes.main}>
@@ -41,6 +47,24 @@ export default function Homepage(){
                     <button>More about us</button>
                 </div>
                 <img src={Team_img} alt="" />
+            </section>
+            <section className={classes.sec4}>
+                <div>
+                    <img src={Grafik1} alt="" />
+                    <p>Years of experience</p>
+                </div>
+                <div>
+                    <img src={Grafik2} alt="" />
+                    <p>Awards</p>
+                </div>
+                <div>
+                    <img src={Grafik3} alt="" />
+                    <p>Projects</p>
+                </div>
+                <div>
+                    <img src={Grafik4} alt="" />
+                    <p>Happy clients</p>
+                </div>
             </section>
         </main>
     )

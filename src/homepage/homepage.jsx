@@ -19,6 +19,14 @@ import Grafik2 from './img/grafik2.svg'
 import Grafik3 from './img/grafik3.svg'
 import Grafik4 from './img/grafik4.svg'
 
+import Ic_target from './img/ic-target.svg'
+import Ic_chat from './img/ic-chat.svg'
+import Ic_checklist from './img/ic-checklist.svg'
+import Ic_like from './img/ic-like.svg'
+import Ic_speaker from './img/ic-speaker.svg'
+import Ic_view from './img/ic-view.svg'
+import Girl from './img/girl.svg' 
+
 
 export default function Homepage(){
     return(
@@ -64,6 +72,50 @@ export default function Homepage(){
                 <div>
                     <img src={Grafik4} alt="" />
                     <p>Happy clients</p>
+                </div>
+            </section>
+            \*Our services*\
+            <section className={classes.sec5}>
+
+            </section>
+            <section className={classes.sec6}>
+                <h1></h1>
+                <div className={classes.container1}>
+                    <div className={classes.column1}>
+                        <div>
+                            <img src={Ic_speaker} alt="" />
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div>
+                            <img src={Ic_target} alt="" />
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div>
+                            <img src={Ic_checklist} alt="" />
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <img src={Girl} alt="" />
+                    <div className={classes.column1}>
+                        <div>
+                            <img src={Ic_chat} alt="" />
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div>
+                            <img src={Ic_view} alt="" />
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div>
+                            <img src={Ic_like} alt="" />
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

@@ -27,10 +27,13 @@ import Ic_speaker from './img/ic-speaker.svg'
 import Ic_view from './img/ic-view.svg'
 import Girl from './img/girl.svg' 
 
+import CaseStudySlider from '../components/ReadSlider/ReadSlider'
+
 
 export default function Homepage(){
     return(
         <main className={classes.main}>
+            <CaseStudySlider/>
             <section className={classes.sec1}>
                 <b>Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</b>
                 <div className={classes.sec_1_img_container}>
@@ -79,7 +82,7 @@ export default function Homepage(){
 
             </section>
             <section className={classes.sec6}>
-                <h1></h1>
+                <h1>Our benefits</h1>
                 <div className={classes.container1}>
                     <div className={classes.column1}>
                         <div>
@@ -98,7 +101,7 @@ export default function Homepage(){
                             <p></p>
                         </div>
                     </div>
-                    <img src={Girl} alt="" />
+                    <img className={classes.Girl} src={Girl} alt="" />
                     <div className={classes.column1}>
                         <div>
                             <img src={Ic_chat} alt="" />

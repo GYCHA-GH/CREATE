@@ -30,6 +30,7 @@ export default function CaseStudySlider() {
   };
 
   return (
+    <>
     <section className={classes.sec1}>
       <div className={classes.container1}>
         <div className={classes.cont2}>
@@ -257,11 +258,14 @@ export default function CaseStudySlider() {
                     </div>
                 </div>
                 </div>
-                
             </div></SwiperSlide>
-            
         </Swiper>
+        <div className={classes.button}>
+            <h3>Explore more case studies</h3>
+            <button>View all case studies</button>
+        </div>
       </div>
     </section>
+    </>
   );
 }

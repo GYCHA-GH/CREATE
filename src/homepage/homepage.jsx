@@ -1,7 +1,7 @@
 import classes from './homepage.module.scss'
 
-import Clutch from './img/Clutch.svg'
 import D from './img/D.svg'
+import Clutch from './img/Clutch.svg'
 import Fordes from './img/Fordes.svg'
 import UpCity from './img/UpCity.svg'
 
@@ -19,21 +19,23 @@ import Grafik2 from './img/grafik2.svg'
 import Grafik3 from './img/grafik3.svg'
 import Grafik4 from './img/grafik4.svg'
 
-import Ic_target from './img/ic-target.svg'
-import Ic_chat from './img/ic-chat.svg'
-import Ic_checklist from './img/ic-checklist.svg'
-import Ic_like from './img/ic-like.svg'
-import Ic_speaker from './img/ic-speaker.svg'
-import Ic_view from './img/ic-view.svg'
-import Girl from './img/girl.svg' 
 
+import Girl from './img/girl.svg' 
+import Ic_chat from './img/ic-chat.svg'
+import Ic_like from './img/ic-like.svg'
+import Ic_view from './img/ic-view.svg'
+import Ic_target from './img/ic-target.svg'
+import Ic_speaker from './img/ic-speaker.svg'
+import Ic_checklist from './img/ic-checklist.svg'
 import CaseStudySlider from '../components/ReadSlider/ReadSlider'
+
 
 
 export default function Homepage(){
     return(
         <main className={classes.main}>
             <CaseStudySlider/>
+            
             <section className={classes.sec1}>
                 <b>Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</b>
                 <div className={classes.sec_1_img_container}>
@@ -87,36 +89,36 @@ export default function Homepage(){
                     <div className={classes.column1}>
                         <div>
                             <img src={Ic_speaker} alt="" />
-                            <h3></h3>
-                            <p></p>
+                            <h3>Social Advertising Experts</h3>
+                            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
                         </div>
                         <div>
                             <img src={Ic_target} alt="" />
-                            <h3></h3>
-                            <p></p>
+                            <h3>Social Advertising Experts</h3>
+                            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
                         </div>
                         <div>
                             <img src={Ic_checklist} alt="" />
-                            <h3></h3>
-                            <p></p>
+                            <h3>Social Advertising Experts</h3>
+                            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
                         </div>
                     </div>
                     <img className={classes.Girl} src={Girl} alt="" />
                     <div className={classes.column1}>
                         <div>
                             <img src={Ic_chat} alt="" />
-                            <h3></h3>
-                            <p></p>
+                            <h3>Social Advertising Experts</h3>
+                            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
                         </div>
                         <div>
                             <img src={Ic_view} alt="" />
-                            <h3></h3>
-                            <p></p>
+                            <h3>Social Advertising Experts</h3>
+                            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
                         </div>
                         <div>
                             <img src={Ic_like} alt="" />
-                            <h3></h3>
-                            <p></p>
+                            <h3>Social Advertising Experts</h3>
+                            <p>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,35 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 390px;
+  
+}
+
+.swiperslide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.swiperslide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .sec1{
   width: 100%;
   height: 782px;
@@ -222,6 +254,4 @@
     transform: scale(1.05);
     transition: 0.3s;
   }
-    
-  
 }

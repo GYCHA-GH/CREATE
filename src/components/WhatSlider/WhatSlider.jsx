@@ -1,5 +1,4 @@
-import Swiper from 'swiper'
-import classes from './model.WharSlider.scss'
+import classes from './WharSlider.module.scss';
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,20 +6,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
-import './styles.css';
+import styles from './styles.module.css';
 
 // import required modules
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation,} from 'swiper/modules';
 export default function WhatSlider(){
     return(
         <>
         <Swiper
-        dir="rtl"
         navigation={true}
-        modules={[Navigation, Pagination]}
-        className="mySwiper"
+        modules={[Navigation]}
+        className={styles.mySwiper}
       >
         <SwiperSlide>Slide 1</SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>

@@ -29,12 +29,15 @@ import Ic_speaker from './img/ic-speaker.svg'
 import Ic_checklist from './img/ic-checklist.svg'
 import CaseStudySlider from '../components/ReadSlider/ReadSlider'
 
+import WhatSlider from '../components/WhatSlider/WhatSlider'
+
 
 
 export default function Homepage(){
     return(
         <main className={classes.main}>
             <CaseStudySlider/>
+            <WhatSlider/>
             
             <section className={classes.sec1}>
                 <b>Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</b>

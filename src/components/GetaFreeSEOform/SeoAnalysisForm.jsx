@@ -45,7 +45,7 @@ export default function SeoAnalysisForm() {
   };
 
   return (
-    <section>
+    <section className="SecGet">
       <div className="container">
         <div className="get-SEO-img">
           <img src={Illustration} alt="" />

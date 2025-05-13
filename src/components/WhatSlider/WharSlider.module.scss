@@ -1,0 +1,114 @@
+.sec1{
+    width: 1920px;
+    padding-top: 150px;
+    margin: 0 auto;
+    h1{
+        text-align: center;
+        font-size: 46px;
+        font-weight: 900;
+        padding-bottom: 52px;
+    }
+}
+.cont1{
+    width: 1242px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.swiperbuttonPrevcustom{
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  background-color: #7772F1;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.swiperbuttonNextcustom{
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: 0.3s;
+  background-color: #7772F1;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: 900;
+}
+.swiperbuttonNextcustom:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.swiperbuttonPrevcustom:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.disabled {
+  background-color: #ffffff00;
+  pointer-events: none;
+  cursor: not-allowed;
+  transition: 0.3s;
+  
+
+}
+.iconActive {
+  fill: white;
+  transition: fill 0.3s ease;
+  
+}
+
+.iconDisabled {
+  fill: #424551;
+  transition: fill 0.3s ease;
+}
+.swiper{
+    width: 1020px;
+    height: 344px;
+    box-shadow: 0px 15px 27px -11px rgba(34, 60, 80, 0.08);
+}
+.swiperslide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    width: 810px;
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 752px;
+    height: 216px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    p{
+        font-size:20px ;
+        color: #424551;
+    }
+}
+.avtor{
+    width: 250px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        border-radius: 50%;
+    }
+    div{
+        width: 152px;
+        height: 50px;
+        display: block;
+        strong{
+            font-size: 16px;
+            font-weight: 700;
+        }
+        bt{
+            font-size: 14px;
+            color: #787A80;
+        }
+    }
+}

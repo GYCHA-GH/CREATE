@@ -4,12 +4,9 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-
-import styles from './styles.module.css';
 import classes from './CaseStudySlider.module.scss';
 
 import slidesData from './slidesData';
-
 
 export default function CaseStudySlider() {
   const swiperRef = useRef(null);

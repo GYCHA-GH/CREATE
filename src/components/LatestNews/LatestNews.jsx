@@ -1,4 +1,4 @@
-import './latestNews.module.scss'
+import classes from'./latestNews.module.scss'
 
 import LStrelka from './img/LStrelka.svg'
 import Clocl from './img/Clock.svg'
@@ -7,7 +7,7 @@ import Profile from './img/Profile.svg'
 import Post1 from './img/post1.png'
 import Post2 from './img/post2.png'
 
-export default function latestNews(){
+export default function LatestNews(){
     return(
         <section className={classes.sec1}>
             <div className={classes.latestNews}>

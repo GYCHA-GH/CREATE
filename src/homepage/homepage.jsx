@@ -27,10 +27,14 @@ import Ic_view from './img/ic-view.svg'
 import Ic_target from './img/ic-target.svg'
 import Ic_speaker from './img/ic-speaker.svg'
 import Ic_checklist from './img/ic-checklist.svg'
+
+
+
 import CaseStudySlider from '../components/ReadSlider/ReadSlider'
-
 import WhatSlider from '../components/WhatSlider/WhatSlider'
-
+import PricingPlan from '../components/PricingPlan/PricingPlan'
+import SeoAnalysisForm from '../components/GetaFreeSEOform/SeoAnalysisForm'
+import LatestNews from '../components/LatestNews/LatestNews'
 
 
 export default function Homepage(){
@@ -38,6 +42,9 @@ export default function Homepage(){
         <main className={classes.main}>
             <CaseStudySlider/>
             <WhatSlider/>
+            <PricingPlan/>
+            <SeoAnalysisForm/>
+            <LatestNews/>
             
             <section className={classes.sec1}>
                 <b>Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</b>

@@ -20,10 +20,14 @@ export default function LatestNews(){
                     <img src={Post1} alt="" />
                     <div className={classes.date}>
                         <p>SEO</p>
-                        <div>
+                        <svg width="20" height="13" viewBox="0 0 1 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="1" x2="0.5" y2="12" stroke="#787A80" stroke-linecap="round"/>
+                        </svg>
                             <img src={Clocl} alt="" />
                             <b>July 5, 2020</b>
-                        </div>
+                        <svg width="20" height="13" viewBox="0 0 1 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="1" x2="0.5" y2="12" stroke="#787A80" stroke-linecap="round"/>
+                        </svg>
                         <img src={Profile} alt="" />
                         <p>By Diane Mccoy</p>
                     </div>
@@ -35,12 +39,20 @@ export default function LatestNews(){
                     <img src={Post2} alt="" />
                     <div className={classes.date}>
                         <p>Marketing</p>
-                        <b>July 2, 2020<img src={Clocl} alt="" /></b>
-                        <p>By Diane Mccoy<img src={Profile} alt="" /></p>
+                        <svg width="20" height="13" viewBox="0 0 1 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="1" x2="0.5" y2="12" stroke="#787A80" stroke-linecap="round"/>
+                        </svg>
+                        <img src={Clocl} alt="" />
+                        <b>July 2, 2020</b>
+                        <svg width="20" height="13" viewBox="0 0 1 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="1" x2="0.5" y2="12" stroke="#787A80" stroke-linecap="round"/>
+                        </svg>
+                        <img src={Profile} alt="" />
+                        <p>By Diane Mccoy</p>
                     </div>
                     <h3>The Basics of Blogging Search Engine Optimization.</h3>
                     <p>Mauris tincidunt sollicitudin tristique odio eget volutpat. Fringilla viverra amet, mi interdum blandit...</p>
-                    <button>Read more <img src={LStrelka} alt="" /></button>
+                    <button>Read more<img src={LStrelka} alt="" /></button>
                 </div>
             </div>
         </section>

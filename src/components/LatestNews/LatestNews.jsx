@@ -12,22 +12,26 @@ export default function LatestNews(){
         <section className={classes.sec1}>
             <div className={classes.latestNews}>
                 <h1>Latest news</h1>
-                <p></p>
-                <button></button>
+                <p>Check more posts in our blog for featured news and advertising insights</p>
+                <a href=""><button>Go to blog</button></a>
             </div>
-            <div className={classes.conatiner}>
-                <div>
+            <div className={classes.container}>
+                <div className={classes.card}>
                     <img src={Post1} alt="" />
                     <div className={classes.date}>
                         <p>SEO</p>
-                        <b>July 5, 2020<img src={Clocl} alt="" /></b>
-                        <p>By Diane Mccoy<img src={Profile} alt="" /></p>
+                        <div>
+                            <img src={Clocl} alt="" />
+                            <b>July 5, 2020</b>
+                        </div>
+                        <img src={Profile} alt="" />
+                        <p>By Diane Mccoy</p>
                     </div>
                     <h3>How to Maximize Your ROI Through Scientific SEM?</h3>
                     <p>Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio...</p>
                     <button>Read more <img src={LStrelka} alt="" /></button>
                 </div>
-                <div>
+                <div className={classes.card}>
                     <img src={Post2} alt="" />
                     <div className={classes.date}>
                         <p>Marketing</p>

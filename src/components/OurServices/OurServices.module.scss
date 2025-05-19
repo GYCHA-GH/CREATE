@@ -1,0 +1,87 @@
+.sec{
+    width: 1315px;
+    margin: 0 auto;
+    height: 719px;
+    h1{
+        font-size: 46px;
+        color: #1E212C;
+        font-weight: 900;
+    }
+}
+.buttons{
+    width: 1230px;
+    height: 46px;
+    margin: o auto;
+    display: flex;
+    justify-content: space-between;
+    button{
+        width: 246px;
+        height: 46px;
+        color: #9A9CA5;
+        justify-content: center;
+        transition: 0.3s;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    button:hover{
+        border: solid 1px #7772F1;
+        border-radius: 4px;
+        transition: 0.3s;
+    }
+}
+.section{
+    width: 1315px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        width: 390px;
+        div{
+            margin-top: 40px;
+            width: 328px;
+            height: 44px;
+            justify-content: space-between;
+            display: flex;
+            .Lbutton{
+                width: 140px;
+                height: 44px;
+                justify-content: center;
+                border-radius: 4px;
+                border: #7772F1 solid 1px;
+                a{
+                    text-decoration: none;
+                    color: #7772F1;
+                    font-size: 14px;
+                }
+            }
+            .Rbutton{
+                width: 166px;
+                height: 44px;
+                justify-content: center;
+                background-color: #7772F1;
+                border-radius: 4px;
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 14px;
+                }
+            }
+        }
+        h3{
+            font-size: 28px;
+            text-align: left;
+            line-height: 150%;
+            color: #1E212C;
+        }
+        li{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            p{
+                margin-left: 10px;
+                color: #424551;
+            }
+        }
+    }
+}
+

@@ -35,11 +35,12 @@ import WhatSlider from '../components/WhatSlider/WhatSlider'
 import PricingPlan from '../components/PricingPlan/PricingPlan'
 import SeoAnalysisForm from '../components/GetaFreeSEOform/SeoAnalysisForm'
 import LatestNews from '../components/LatestNews/LatestNews'
-
+import OurServices from '../components/OurServices/OurServices'
 
 export default function Homepage(){
     return(
         <main className={classes.main}>
+            <OurServices/>
             <CaseStudySlider/>
             <WhatSlider/>
             <PricingPlan/>

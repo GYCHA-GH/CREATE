@@ -36,10 +36,12 @@ import PricingPlan from '../components/PricingPlan/PricingPlan'
 import SeoAnalysisForm from '../components/GetaFreeSEOform/SeoAnalysisForm'
 import LatestNews from '../components/LatestNews/LatestNews'
 import OurServices from '../components/OurServices/OurServices'
+import FreeAskQ from '../components/FreeAskQ/FreeAskQ'
 
 export default function Homepage(){
     return(
         <main className={classes.main}>
+            <FreeAskQ/>
             <OurServices/>
             <CaseStudySlider/>
             <WhatSlider/>

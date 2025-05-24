@@ -108,11 +108,11 @@ export default function Services(){
             <h1>Markets in which we operate</h1>
             <div className={classes.container}>
                 <div>
-                    <img src="" alt="" />
-                    <h3></h3>
-                    <p></p>
+                    <img src="src/services/img/ic-cart.svg" alt="" />
+                    <h3>E-commerce Websites</h3>
+                    <p>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris.</p>
                 </div>
-                <svg width="1" height="162" viewBox="0 0 1 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="1" height="162" viewBox="0 0 1 162" fill="none">
                 <line x1="0.5" y1="-2.18557e-08" x2="0.500007" y2="162" stroke="url(#paint0_linear_1695_6)"/>
                 <defs>
                 <linearGradient id="paint0_linear_1695_6" x1="-0.999988" y1="162" x2="1.62396" y2="0.026308" gradientUnits="userSpaceOnUse">
@@ -125,11 +125,11 @@ export default function Services(){
                 </defs>
                 </svg>
                 <div>
-                    <img src="" alt="" />
-                    <h3></h3>
-                    <p></p>
+                    <img src="src/services/img/ic-suitcase.svg" alt="" />
+                    <h3>Content-rich Websites</h3>
+                    <p>Culpa nostrud commodo ea consequat reprehenderit aliquip.</p>
                 </div>
-                <svg width="1" height="162" viewBox="0 0 1 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="1" height="162" viewBox="0 0 1 162" fill="none">
                 <line x1="0.5" y1="-2.18557e-08" x2="0.500007" y2="162" stroke="url(#paint0_linear_1695_6)"/>
                 <defs>
                 <linearGradient id="paint0_linear_1695_6" x1="-0.999988" y1="162" x2="1.62396" y2="0.026308" gradientUnits="userSpaceOnUse">
@@ -142,11 +142,11 @@ export default function Services(){
                 </defs>
                 </svg>
                 <div>
-                    <img src="" alt="" />
-                    <h3></h3>
-                    <p></p>
+                    <img src="src/services/img/ic-website.svg" alt="" />
+                    <h3>B2B /B2C Services</h3>
+                    <p>Viverra scelerisque consequat net. Adipisicing esse consequat.</p>
                 </div>
-                <svg width="1" height="162" viewBox="0 0 1 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="1" height="162" viewBox="0 0 1 162" fill="none">
                 <line x1="0.5" y1="-2.18557e-08" x2="0.500007" y2="162" stroke="url(#paint0_linear_1695_6)"/>
                 <defs>
                 <linearGradient id="paint0_linear_1695_6" x1="-0.999988" y1="162" x2="1.62396" y2="0.026308" gradientUnits="userSpaceOnUse">
@@ -159,9 +159,9 @@ export default function Services(){
                 </defs>
                 </svg>
                 <div> 
-                    <img src="" alt="" />
-                    <h3></h3>
-                    <p></p>
+                    <img src="src/services/img/ic-startup.svg" alt="" />
+                    <h3>Startup Projects</h3>
+                    <p>Aute eiusmod dolore dolore deserunt veniam ad deserunt.</p>
                 </div>
             </div>
         </section>
